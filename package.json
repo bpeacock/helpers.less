@@ -1,0 +1,13 @@
+{
+    "name":         "helpers.less",
+    "description":  "A set of very convenient less helpers.",
+    "version":      "0.1.0",
+    "author":       "Brian Peacock",
+    "main":         "helpers.less",
+    "dependencies": {
+        
+    },
+    "devDependencies": {},
+    "license": "MIT",
+    "keywords": []
+}
