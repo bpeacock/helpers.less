@@ -4,9 +4,11 @@
     "version":      "0.1.0",
     "author":       "Brian Peacock",
     "main":         "helpers.less",
-    "dependencies": {
-        
+    "repository":   {
+        "type": "git",
+        "url":  "https://github.com/bpeacock/helpers.less"
     },
+    "dependencies": {},
     "devDependencies": {},
     "license": "MIT",
     "keywords": []
