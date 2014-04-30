@@ -111,6 +111,9 @@
 }
 
 .rotate(@deg) {
-    .transform(rotate(@deg))
+    .transform(rotate(@deg));
 }
 
+.scale(@ratio) {
+    .transform(scale(@ratio, @ratio));
+}
