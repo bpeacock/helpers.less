@@ -127,3 +127,10 @@
 .translate(@x, @y) {
     .transform(translate(@x, @y));
 }
+
+.text-outline(@width, @color) {
+    text-shadow:    -@width     0           @color,
+                    0           @width      @color,
+                    @width      0           @color,
+                    0           -@width     @color;
+}
