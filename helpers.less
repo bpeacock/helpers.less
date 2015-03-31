@@ -128,8 +128,8 @@
     .transform(rotate(@deg));
 }
 
-.scale(@ratio) {
-    .transform(scale(@ratio, @ratio));
+.scale(@ratio-x, @ratio-y: @ratio-x) {
+    .transform(scale(@ratio-x, @ratio-y));
 }
 
 .translate(@x, @y) {
