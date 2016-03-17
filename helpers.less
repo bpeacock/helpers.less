@@ -142,3 +142,17 @@
                     @width      0           @color,
                     0           -@width     @color;
 }
+
+.center-vertically(@height) {
+    position: absolute;
+    line-height: @height;
+    margin-top: -@height/2;
+    top: 50%;
+}
+
+.center-horizontally(@width) {
+    position: absolute;
+    width: @width;
+    margin-left: -@width/2;
+    left: 50%;
+}
